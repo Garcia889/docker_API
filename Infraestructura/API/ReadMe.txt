@@ -4,7 +4,7 @@ Usamos Fast API
 https://www.postman.com/downloads
 
 --Este comando inicia el servicio de Fast API
-uvicorn main:app –reload
+uvicorn main:app –-reload
 
 Para correlo usamos un ambiente virtual de conda
 --Actualizamos Conda
