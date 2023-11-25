@@ -8,3 +8,7 @@ services:
     build: ./API
     ports:
       - 8000:8000
+  db:
+    build: ./BD
+    ports:
+      - "5432:5432"
