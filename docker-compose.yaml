@@ -1,0 +1,10 @@
+version: "3"
+services:
+  dash:
+    build: ./Dash
+    ports:
+      - 8050:8050
+  api:
+    build: ./API
+    ports:
+      - 8000:8000
