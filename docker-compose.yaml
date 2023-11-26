@@ -8,7 +8,14 @@ services:
     build: ./API
     ports:
       - 8000:8000
-  db:
-    build: ./BD
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    volumes:
+      - ./BD/data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: credito_bd
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
