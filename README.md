@@ -21,11 +21,11 @@ Este proyecto tiene como finalidad ser un de ayuda para áreas técnicas, como l
 *¿Cómo lo hacemos?* La funcionalidad de poder calcular la probabilidad de default de los clientes mediante un csv permite al usuario de la API tomar decisiones basadas en este output y decidir tomar medidas al respecto dependiendo del ciclo de vida del crédito en cuestión. Además, el dashboard final presenta visualmente el desempeño estadístico de la población de entrenamiento, test y nuevas observaciones para tener una mejor idea de la situación del modelo.
 
 ### **Instalación**
-*1. Clona el repositorio
+* 1. Clona el repositorio
 
 ```bash
-def hello_world():
-print("Hello, World!")
+git clone git@github.com:vdr90/Credito_Default.git
+cd Credito_Default
 ```
 
 ## Estructura del Proyecto:
