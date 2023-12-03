@@ -1,4 +1,5 @@
-# Proyecto final Maestría Otoño 2023 para Est-Comp ITAM : Default of Credit Card Project
+# ITAM Maestría en Ciencia de Datos - Otoño 2023
+# Proyecto final Estadística Computacional : Default of Credit Card Taiwan 2005 Project
 
 ### Integrantes
 
