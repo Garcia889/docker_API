@@ -25,22 +25,34 @@ Este proyecto tiene como finalidad ser un de ayuda para áreas técnicas, como l
 La carpeta tiene una estructura de archivos dependiendo de la funcionalidad. Aquí se explica cómo funciona cada herramienta. 
 
 * Interfaz de Programas de Aplicaciones (API)
+  
   * **main.py:** Es la aplicación API de python con FastAPI  (dentro de carpeta **API**). Este script es la base de la aplicación. En donde se generan las predicciones y se conecta con las tablas de PosgresSQL.
+    
   * **Readme.txt** Este archivo tiene la explicación de cómo correr FastAPI individualmente.
+    
   * **DockerFile** Este archivo tiene la configuración de la imagen de docker de FastAPI para poder ser llamado con posterioridad y conectar las diferentes aplicaciones simultaneamente.
+    
   * **estimator_hyper_xgb.joblib** Este archivo binario contiene al modelo de la librería XGBoost, desarrollado en python para obtener las predicciones.
+    
   * **requirements.txt** Este archivo de texto contiene a todas las librerías necesarias para poder correr la API, y son instaladas durante la creación de la imagen de Docker de FastAPI.
  
 * Bada de Datos (BD)
+  
   * **init_sql.sql:** script que construye la table de la base de datos (dentro de carpeta **BD**)
+    
   * **DockerFile** Este archivo tiene la configuración de la imagen de la tabla de la base de datos creada en Posgres.
 
 * Tablero (*Dashboard* en Dash)
+  
   * **iDsah.py:** Este script conecta con la base de datos de PosgresSQL una vez que se calulo la predicción por medio de la API para poder generar el tablero con las gráficas y poblaciones seleccionadas (dentro de carpeta **Dash**).
-  * **DockerFile** Este archivo tiene la configuración de la imagen de docker de dash para poder ser llamadoposteriormente y conectar las diferentes aplicaciones simultaneamente. 
+    
+  * **DockerFile** Este archivo tiene la configuración de la imagen de docker de dash para poder ser llamadoposteriormente y conectar las diferentes aplicaciones simultaneamente.
+    
   * **requirements.txt** Este archivo de texto contiene a todas las librerías necesarias para poder correr el tablero, y son instaladas durante la creación de la imagen de Docker de dash.
-
-* **docker-compose:** script que corre la imagen del proyecto, postgres, FastAPI y Dash, para que todas estas se conecten y puedas obtener el resultado final.
+ 
+* Unión de aplicaciones
+  
+  * **docker-compose.yaml:** script que corre la imagen del proyecto, postgres, FastAPI y Dash, para que todas estas se conecten y puedas obtener el resultado final.
 
 
 
