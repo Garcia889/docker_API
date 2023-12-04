@@ -57,13 +57,13 @@ La carpeta tiene una estructura de archivos dependiendo de la funcionalidad. Aqu
     
   * **requirements.txt** Este archivo de texto contiene a todas las librerías necesarias para poder correr la API, y son instaladas durante la creación de la imagen de Docker de FastAPI.
  
-* Bada de Datos (BD)
+* Base de Datos (BD)
   
   * **init_sql.sql:** script que construye la table de la base de datos (dentro de carpeta **BD**)
     
   * **DockerFile** Este archivo tiene la configuración de la imagen de la tabla de la base de datos creada en Posgres.
 
-* Tablero (*Dashboard* en Dash)
+* Tablero (Dash)
   
   * **iDsah.py:** Este script conecta con la base de datos de PosgresSQL una vez que se calulo la predicción por medio de la API para poder generar el tablero con las gráficas y poblaciones seleccionadas (dentro de carpeta **Dash**).
     
