@@ -1,0 +1,8 @@
+pandas==1.2.2
+xgboost==2.0.2
+scikit-learn==1.2.2
+dash
+kds
+scipy
+seaborn
+dash_bootstrap_components
