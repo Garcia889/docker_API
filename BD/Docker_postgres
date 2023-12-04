@@ -1,9 +1,0 @@
-docker run \
-       -p 5432:5432 \
-       -e POSTGRES_PASSWORD=postgres \
-       -e POSTGRES_INITDB_ARGS="--auth-local=md5" \
-       --name postgres_db \
-       -v ./ProyectoFinal/Credito_Default:/ProyectoFinal/Credito_Default \
-      -t -i -d \
-      postgres
-
