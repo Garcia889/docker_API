@@ -65,7 +65,7 @@ La carpeta tiene una estructura de archivos dependiendo de la funcionalidad. Aqu
 
 * Tablero (Dash)
   
-  * **iDsah.py:** Este script conecta con la base de datos de PosgresSQL una vez que se calulo la predicción por medio de la API para poder generar el tablero con las gráficas y poblaciones seleccionadas (dentro de carpeta **Dash**).
+  * **app.py:** Este script invoca a la API la cual crea una conexion a la base de datos de PosgresSQL y también calula la predicción estos datos se usan para poder generar el tablero con las gráficas y poblaciones seleccionadas (dentro de carpeta **Dash**).
     
   * **DockerFile** Este archivo tiene la configuración de la imagen de docker de dash para poder ser llamadoposteriormente y conectar las diferentes aplicaciones simultaneamente.
     
