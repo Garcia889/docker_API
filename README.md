@@ -95,4 +95,4 @@ La carpeta tiene una estructura de archivos dependiendo de la funcionalidad. Aqu
 * [Docker](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 * [Python](https://www.python.org/)
 * [Dash](https://dash.plotly.com/)
-* [PostgreSQL](https://www.postgresql.org/)https://www.postgresql.org/)
+* [PostgreSQL](https://www.postgresql.org/)
