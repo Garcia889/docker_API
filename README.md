@@ -30,14 +30,15 @@ cd Credito_Default
 
 2. Descarga los archivos 
 
-3. Construye y levanta los contenedores con Docker Compose
+3. Abre la aplicación **Docker**
 
+4. Construye y levanta los contenedores con Docker Compose
 ```bash
 docker-compose up --build
 ```
 Esto iniciará los servicios de FastAPI, Dash y PostgreSQL en contenedores separados.
 
-4. Accede a la aplicación
+5. Accede a la aplicación
 * La API FastAPI estará disponible en http://localhost:8000.
 * El dashboard Dash estará disponible en http://localhost:8050.
 
