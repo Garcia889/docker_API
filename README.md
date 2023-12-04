@@ -39,8 +39,8 @@ docker-compose up --build
 Esto iniciará los servicios de FastAPI, Dash y PostgreSQL en contenedores separados.
 
 5. Accede a la aplicación
-* La API FastAPI estará disponible en http://localhost:8000.
 * El dashboard Dash estará disponible en http://localhost:8050.
+* La API FastAPI estará disponible en http://localhost:8000.
 
 ## Estructura del Proyecto:
 La carpeta tiene una estructura de archivos dependiendo de la funcionalidad. Aquí se explica cómo funciona cada herramienta. 
@@ -93,6 +93,6 @@ La carpeta tiene una estructura de archivos dependiendo de la funcionalidad. Aqu
 
 * [FastAPI](https://fastapi.tiangolo.com/)
 * [Docker](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-* [Python] (https://www.python.org/)
-* [Dash] (https://dash.plotly.com/)
-* [PostgreSQL]((https://www.postgresql.org/)https://www.postgresql.org/)
+* [Python](https://www.python.org/)
+* [Dash](https://dash.plotly.com/)
+* [PostgreSQL](https://www.postgresql.org/)https://www.postgresql.org/)
