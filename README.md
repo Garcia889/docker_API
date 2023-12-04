@@ -28,7 +28,8 @@ git clone git@github.com:vdr90/Credito_Default.git
 cd Credito_Default
 ```
 
-2. Descarga los archivos 
+2. Descarga los archivos para entrenamiento
+  En la carpeta BD/data/ descarga el archivo [test.csv](https://drive.google.com/file/d/1JevIWhdE3EgC1BM5Mv0bqyva9Z-twy3x/view?usp=sharing)
 
 3. Abre la aplicación **Docker**
 
