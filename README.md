@@ -44,6 +44,23 @@ Esto iniciará los servicios de FastAPI, Dash y PostgreSQL en contenedores separ
 * El dashboard Dash estará disponible en http://localhost:8050.
 * La API FastAPI estará disponible en http://localhost:8000.
 
+6. Si deseas probar las predicciones en csvs se adjuntan un par de ejemplos:
+   [carpeta ejemplos](https://drive.google.com/drive/folders/1H0ZIcscUvlS2vDrNmMPrpnC5FfDeg0nI?usp=sharing)
+   De esta manera al recibir un csv en el boton de drag and drop obtendrás una prediccion para cada registro del csv.
+
+Las variables que se utilizan para predecir  :
+
+- SEX
+- PAY_2
+- PAY_4
+- PAY_5
+- PAY_6
+- BILL_AMT1
+- PAY_AMT2
+- PAY_AMT4
+- PAY_AMT5
+   
+
 ## Estructura del Proyecto:
 La carpeta tiene una estructura de archivos dependiendo de la funcionalidad. Aquí se explica cómo funciona cada herramienta. 
 
