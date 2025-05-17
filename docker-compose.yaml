@@ -1,42 +1,10 @@
 version: "3"
 services:
-  postgres:
-    image: postgres:latest
-    container_name: postgres
-    #environment:
-    #  POSTGRES_HOST_AUTH_METHOD: trust
-    environment:
-      #POSTGRES_PASSWORD: postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=postgres   
-    volumes:
-      - ./BD/data/init.sql:/docker-entrypoint-initdb.d/init.sql
-      - ./BD/data/test.csv:/BD/data/test.csv
-      - ../BD/data34:/var/lib/postgresql/data
-    ports:
-      - 5432:5432
-    #expose:
-    #  - 5432
   api:
     build: ./API
     #command: bash -c 'while !</dev/tcp/postgres/5432; do sleep 1; done; uvicorn app.main:app --host 0.0.0.0'
     ports:
       - 8000:8000
-    environment:
-      - PGHOST=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=postgres
-      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/postgres
-    depends_on:
-      - "postgres"
-  dash:
-    build: ./Dash
-    ports:
-      - 8050:8050
-    depends_on:
-      - "postgres"
     
     
 
